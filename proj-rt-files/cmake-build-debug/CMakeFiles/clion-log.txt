@@ -1,0 +1,40 @@
+C:\Users\Michael\Downloads\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "C:\Users\Michael\Documents\CS 130\proj-rt-files.tar\proj-rt-files\proj-rt\proj-rt-files"
+-- The C compiler identification is MSVC 19.21.27702.2
+-- The CXX compiler identification is MSVC 19.21.27702.2
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.21.27702/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.21.27702/bin/Hostx86/x86/cl.exe -- broken
+CMake Error at C:/Users/Michael/Downloads/CLion-2019.3.2.win/bin/cmake/win/share/cmake-3.15/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.21.27702/bin/Hostx86/x86/cl.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/Michael/Documents/CS 130/proj-rt-files.tar/proj-rt-files/proj-rt/proj-rt-files/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):nmake /nologo cmTC_671bd\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_671bd.dir\build.make /nologo -L                  CMakeFiles\cmTC_671bd.dir\build
+    Building C object CMakeFiles/cmTC_671bd.dir/testCCompiler.c.obj
+    	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\bin\Hostx86\x86\cl.exe" @C:\Users\Michael\AppData\Local\Temp\nm65D9.tmp
+    testCCompiler.c
+    Linking C executable cmTC_671bd.exe
+    	C:\Users\Michael\Downloads\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_671bd.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- "C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_671bd.dir\objects1.rsp @C:\Users\Michael\AppData\Local\Temp\nm6731.tmp
+    RC Pass 1: command "rc /fo CMakeFiles\cmTC_671bd.dir/manifest.res CMakeFiles\cmTC_671bd.dir/manifest.rc" failed (exit code 0) with the following output:
+    The system cannot find the file specifiedNMAKE : fatal error U1077: 'C:\Users\Michael\Downloads\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe' : return code '0xffffffff'
+    Stop.
+    NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+    Stop.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Michael/Documents/CS 130/proj-rt-files.tar/proj-rt-files/proj-rt/proj-rt-files/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/Michael/Documents/CS 130/proj-rt-files.tar/proj-rt-files/proj-rt/proj-rt-files/cmake-build-debug/CMakeFiles/CMakeError.log".
